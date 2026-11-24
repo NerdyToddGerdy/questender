@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>GerdQuest Calendar has moved</title>
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="canonical" href="https://nerdytoddgerdy.github.io/gerdquest-calendar/">
+  <script>
+    // Questender is now GerdQuest Calendar. Send every old address to the same
+    // page at the new one, keeping ?query and #hash. Saves are unaffected:
+    // both addresses share this domain's browser storage.
+    (function () {
+      var rest = location.pathname.replace(/^\/questender(\/|$)/, '/')
+      location.replace('/gerdquest-calendar' + rest + location.search + location.hash)
+    })()
+  </script>
+  <meta http-equiv="refresh" content="0; url=https://nerdytoddgerdy.github.io/gerdquest-calendar/">
+  <style>
+    body { font: 18px/1.5 system-ui, sans-serif; max-width: 34em; margin: 15vh auto; padding: 0 16px; color: #2b2622; background: #f3eee5; }
+    a { color: #8a5300; }
+    @media (prefers-color-scheme: dark) { body { color: #e8e2d8; background: #12161c; } a { color: #e8b25a; } }
+  </style>
+</head>
+<body>
+  <h1>Questender is now GerdQuest Calendar</h1>
+  <p>Taking you to the new address. If nothing happens, <a href="https://nerdytoddgerdy.github.io/gerdquest-calendar/">open GerdQuest Calendar</a>.</p>
+  <p>Your saved campaigns come with you on this browser.</p>
+</body>
+</html>
